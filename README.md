@@ -105,7 +105,7 @@ sceneView.autoenablesDefaultLighting = true
 
 ### Output:
 
-<img src="SingleDice.PNG" width=300 height=300>
+<img src="Outputs/SingleDice.PNG" width=300 height=300>
 
 
 ## Stage 4
@@ -116,7 +116,7 @@ sceneView.autoenablesDefaultLighting = true
 
 ### Output:
 
-<img src="planeDetection1.PNG" width=300 height=300> <img src="planeDetection2.PNG" width=300 height=300> <img src="planeDetection3.PNG" width=300 height=300>
+<img src="Outputs/planeDetection1.PNG" width=300 height=300> <img src="Outputs/planeDetection2.PNG" width=300 height=300> <img src="Outputs/planeDetection3.PNG" width=300 height=300>
 
 ## Stage 4
 
