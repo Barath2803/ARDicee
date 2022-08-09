@@ -86,8 +86,30 @@ let sphere = SCNSphere(radius: 0.2)
 
 <img src="Outputs/Moon.PNG" width=330 height=400> <img src="Outputs/Earth.PNG" width=330 height=400>
 
+
 ## Stage 3
 
+### CREATING A SINGLE DICE AS SCENE VIEW
+
+### Code:
+
+```swift
+let diceScene = SCNScene(named: "art.scnassets/diceCollada.scn")!
+        
+if let diceNode = diceScene.rootNode.childNode(withName: "Dice", recursively: true) {
+    diceNode.position = SCNVector3(x:0, y:0, z:-0.1)
+    sceneView.scene.rootNode.addChildNode(diceNode)
+}
+sceneView.autoenablesDefaultLighting = true
+```
+
+### Output:
+
+<img src="SingleDice.png" width=300 height=300>
+
+
+## Stage 4
+
 ### 
 
 ### Code:
@@ -108,16 +130,6 @@ let sphere = SCNSphere(radius: 0.2)
 
 ### Output:
 
-
-## Stage 4
-
-### 
-
-### Code:
-
-
-
-### Output:
 
 
 ## Stage 5
