@@ -105,8 +105,18 @@ sceneView.autoenablesDefaultLighting = true
 
 ### Output:
 
-<img src="SingleDice.png" width=300 height=300>
+<img src="SingleDice.PNG" width=300 height=300>
 
+
+## Stage 4
+
+### HORIZONTRAL PLANE DETECTION
+
+### Code:   [ViewController](ViewController.swift)
+
+### Output:
+
+<img src="planeDetection1.PNG" width=300 height=300> <img src="planeDetection2.PNG" width=300 height=300> <img src="planeDetection3.PNG" width=300 height=300>
 
 ## Stage 4
 
@@ -118,19 +128,7 @@ sceneView.autoenablesDefaultLighting = true
 
 ### Output:
 
-
-
-## Stage 4
-
-### 
-
-### Code:
-
-
-
-### Output:
-
-
+<img src=".PNG" width=300 height=300>
 
 ## Stage 5
 
@@ -142,6 +140,7 @@ sceneView.autoenablesDefaultLighting = true
 
 ### Output:
 
+<img src=".PNG" width=300 height=300>
 
 ## Stage 6
 
@@ -152,4 +151,7 @@ sceneView.autoenablesDefaultLighting = true
 
 
 ### Output:
+
+<img src=".PNG" width=300 height=300>
+
 
