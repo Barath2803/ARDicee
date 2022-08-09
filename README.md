@@ -3,16 +3,16 @@ Learning ARkit Basic in Swift with the Dice rolling app.
 
 ## Stage 1
 
-### Creating 3D Object (Cube) 
+### CREATING 3D OBJECT (Cube) 
 
 ### Code: 
 
+```swift
 import UIKit
 import SceneKit
 import ARKit
 
 class ViewController: UIViewController, ARSCNViewDelegate {
-
     @IBOutlet var sceneView: ARSCNView!
     
     override func viewDidLoad() {
@@ -53,8 +53,91 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.session.pause()
     }
 }
-
+```
 
 ### Output: (In Iphone 13 Pro)
 
-<img src="stage1.png" width=300 height=300>
+<img src="Outputs/Cube.PNG" width=300 height=300>
+
+
+## Stage 2
+
+### CREATING 3D SPHERE OBJECTS (MOON & EARTH)
+
+### Code:
+
+```swift
+let sphere = SCNSphere(radius: 0.2)
+
+        let material = SCNMaterial()
+        material.diffuse.contents = UIImage(named: "earth.jpg")
+        
+        sphere.materials = [material]
+        
+        let node = SCNNode()
+        node.position = SCNVector3(x:0 , y: 0.1, z: -0.5)
+        node.geometry = sphere
+        
+        sceneView.scene.rootNode.addChildNode(node)
+        sceneView.autoenablesDefaultLighting = true
+```
+
+### Output: 
+
+<img src="Outputs/Moon.PNG" width=330 height=400> <img src="Outputs/Earth.PNG" width=330 height=400>
+
+## Stage 3
+
+### 
+
+### Code:
+
+
+
+### Output:
+
+
+
+## Stage 4
+
+### 
+
+### Code:
+
+
+
+### Output:
+
+
+## Stage 4
+
+### 
+
+### Code:
+
+
+
+### Output:
+
+
+## Stage 5
+
+### 
+
+### Code:
+
+
+
+### Output:
+
+
+## Stage 6
+
+### 
+
+### Code:
+
+
+
+### Output:
+
