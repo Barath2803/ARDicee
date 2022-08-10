@@ -105,18 +105,18 @@ sceneView.autoenablesDefaultLighting = true
 
 ### Output:
 
-<img src="Outputs/SingleDice.PNG" width=300 height=300>
+<img src="Outputs/SingleDice.PNG" width=200>
 
 
 ## Stage 4
 
 ### HORIZONTRAL PLANE DETECTION
 
-### Code:   [ViewController](ViewController.swift)
+### Code:   [ViewController](ARDicee/ViewController.swift)
 
 ### Output:
 
-<img src="Outputs/planeDetection1.PNG" width=300 height=300> <img src="Outputs/planeDetection2.PNG" width=300 height=300> <img src="Outputs/planeDetection3.PNG" width=300 height=300>
+<img src="Outputs/planeDetection1.PNG" width=200 height=200> <img src="Outputs/planeDetection2.PNG" width=200 height=200> <img src="Outputs/planeDetection3.PNG" width=200 height=200>
 
 ## Stage 4
 
