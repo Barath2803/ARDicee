@@ -116,7 +116,7 @@ sceneView.autoenablesDefaultLighting = true
 
 ### Output:
 
-<img src="Outputs/planeDetection1.PNG" width=200 height=200> <img src="Outputs/planeDetection2.PNG" width=200 height=200> <img src="Outputs/planeDetection3.PNG" width=200 height=200>
+<img src="Outputs/planeDetection1.PNG" width=250 height=250> <img src="Outputs/planeDetection2.PNG" width=250 height=250> <img src="Outputs/planeDetection3.PNG" width=250 height=250>
 
 
 ## Stage 4
@@ -127,7 +127,7 @@ sceneView.autoenablesDefaultLighting = true
 
 ### Output:
 
-<img src="Outputs/TouchSS1.PNG" width=300 height=300> <img src="Outputs/TouchSS2.PNG" width=300 height=300>
+<img src="Outputs/TouchSS1.PNG" width=200> <img src="Outputs/TouchSS2.PNG" height=200>
 
 
 ## Stage 5
@@ -138,7 +138,7 @@ sceneView.autoenablesDefaultLighting = true
 
 ### Output:
 
-![Dice Rolling video](Outputs/RollingDice.MP4)
+https://user-images.githubusercontent.com/89236958/183870557-6374b1e9-29cc-401e-b3fe-7b7278667ec4.MP4
 
 ## Stage 6
 
