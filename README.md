@@ -118,38 +118,33 @@ sceneView.autoenablesDefaultLighting = true
 
 <img src="Outputs/planeDetection1.PNG" width=200 height=200> <img src="Outputs/planeDetection2.PNG" width=200 height=200> <img src="Outputs/planeDetection3.PNG" width=200 height=200>
 
+
 ## Stage 4
 
-### 
+### DETECT TOUCH AND PLACE DICE ON THE TOUCHED HORIZONTAL PLANE
 
-### Code:
-
-
+### Code:   [ViewController](ARDicee/ViewController.swift)
 
 ### Output:
 
-<img src=".PNG" width=300 height=300>
+<img src="TouchSS1.PNG" width=300 height=300> <img src="TouchSS2.PNG" width=300 height=300>
+
 
 ## Stage 5
 
-### 
+### MAKE THE 3D OBJECT ANIMATE (ROLL THE DICE - WITH REFRESH BUTTON AND WHEN SHAKE PHONE)
 
-### Code:
-
-
+### Code:   [ViewController](ARDicee/ViewController.swift)
 
 ### Output:
 
-<img src=".PNG" width=300 height=300>
+![Dice Rolling video](Outputs/RollingDice.MP4)
 
 ## Stage 6
 
 ### 
 
-### Code:
-
-
-
+### Code:   [ViewController](ARDicee/ViewController.swift)
 
 ### Output:
 
