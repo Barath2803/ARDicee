@@ -32,6 +32,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         let configuration = ARWorldTrackingConfiguration()
 
         configuration.planeDetection = .horizontal
+//        configuration.planeDetection = .vertical
         
         // Run the view's session
         sceneView.session.run(configuration)
@@ -51,6 +52,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             let result = sceneView.hitTest(touchLocation, types: .existingPlaneUsingExtent)
             
             if let hitResult = result.first {
+//                print("Hit Result: ",hitResult)
                 //Create a new scene for dice
                 let diceScene = SCNScene(named: "art.scnassets/diceCollada.scn")!
 
@@ -58,12 +60,25 @@ class ViewController: UIViewController, ARSCNViewDelegate {
                     diceNode.position = SCNVector3(
                         x: hitResult.worldTransform.columns.3.x,
                         y: hitResult.worldTransform.columns.3.y + diceNode.boundingSphere.radius,
-                        z: hitResult.worldTransform.columns.3.z)
+                        z: hitResult.worldTransform.columns.3.z
+                    )
+                    
                     sceneView.scene.rootNode.addChildNode(diceNode)
-               }
 
-               sceneView.autoenablesDefaultLighting = true
-               
+                    sceneView.autoenablesDefaultLighting = true
+                    
+                    let randomX = Float(arc4random_uniform(4) + 1 ) * (Float.pi/2)
+                    let randomY = Float(arc4random_uniform(4) + 1 ) * (Float.pi/2)
+                    
+                    diceNode.runAction(SCNAction.rotateBy(
+                        x: CGFloat(randomX * 5),
+                        y: 0,
+                        z: CGFloat(randomY * 5),
+                        duration: 0.5))
+                }
+                
+
+            
             }
         }
     }
