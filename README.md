@@ -127,7 +127,7 @@ sceneView.autoenablesDefaultLighting = true
 
 ### Output:
 
-<img src="TouchSS1.PNG" width=300 height=300> <img src="TouchSS2.PNG" width=300 height=300>
+<img src="Outputs/TouchSS1.PNG" width=300 height=300> <img src="Outputs/TouchSS2.PNG" width=300 height=300>
 
 
 ## Stage 5
