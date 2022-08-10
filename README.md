@@ -132,7 +132,7 @@ sceneView.autoenablesDefaultLighting = true
 
 ## Stage 5
 
-### MAKE THE 3D OBJECT ANIMATE (ROLL THE DICE - WITH REFRESH BUTTON AND WHEN SHAKE PHONE)
+### MAKING A 3D OBJECT ANIMATE (MAKE DICE TO ROLL)
 
 ### Code:   [ViewController](ARDicee/ViewController.swift)
 
@@ -140,7 +140,19 @@ sceneView.autoenablesDefaultLighting = true
 
 https://user-images.githubusercontent.com/89236958/183870557-6374b1e9-29cc-401e-b3fe-7b7278667ec4.MP4
 
+
 ## Stage 6
+
+### MAKE THE 3D OBJECT ANIMATE (ROLL THE DICE - WITH REFRESH BUTTON AND WHEN SHAKE PHONE)
+
+### Code:   [ViewController](ARDicee/ViewController.swift)
+
+### Output:
+
+https://user-images.githubusercontent.com/89236958/183880211-d785c9ce-d992-4121-8357-49f581671031.mp4
+
+
+## Stage 7
 
 ### 
 
@@ -148,6 +160,14 @@ https://user-images.githubusercontent.com/89236958/183870557-6374b1e9-29cc-401e-
 
 ### Output:
 
-<img src=".PNG" width=300 height=300>
+
+## Stage 8
+
+### 
+
+### Code:   [ViewController](ARDicee/ViewController.swift)
+
+### Output:
+
 
 
