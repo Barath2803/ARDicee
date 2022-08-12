@@ -154,20 +154,11 @@ https://user-images.githubusercontent.com/89236958/183880211-d785c9ce-d992-4121-
 
 ## Stage 7
 
-### 
+### REMOVE BUTTON TO REMOVE ALL OBJECT (DICE} AND START FROM FIRST
 
 ### Code:   [ViewController](ARDicee/ViewController.swift)
 
-### Output:
+### Final Output:
 
-
-## Stage 8
-
-### 
-
-### Code:   [ViewController](ARDicee/ViewController.swift)
-
-### Output:
-
-
+https://user-images.githubusercontent.com/89236958/184290642-845bedb6-70ad-4d86-bf2a-dccb2159952c.MP4
 
